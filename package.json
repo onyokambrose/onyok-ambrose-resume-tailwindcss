@@ -1,0 +1,10 @@
+{
+  "name": "my-resume-tailwind",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i ./style.css -o ./output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
